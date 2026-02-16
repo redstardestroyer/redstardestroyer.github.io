@@ -1,0 +1,38 @@
+html{
+   background-color: white;
+
+}
+body{
+
+front: 1.2em / 1.5system-ui;
+padding:20px;
+width:500px;
+background: #efefef;
+margin:0 auto;
+
+}
+h1{ 
+color: darkslategray;
+border-bottom: 10px dotted purple;
+font-size: 2rem;
+
+}
+.job-title{
+color : darkslategray;
+font_weigth: bold;
+
+}
+ul{
+   background-color: white;
+   border:5px solid  purple;
+   border-radius: 20px;
+}
+a {
+color : green;
+}
+
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}
