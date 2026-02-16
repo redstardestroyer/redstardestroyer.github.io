@@ -18,7 +18,7 @@ font-size: 2rem;
 
 }
 .job-title{
-color : darkslategray;
+color : darkslategray;d
 font_weigth: bold;
 
 }
