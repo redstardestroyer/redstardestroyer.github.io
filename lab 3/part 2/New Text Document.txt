@@ -7,7 +7,7 @@ body{
 front: 1.2em / 1.5system-ui;
 padding:20px;
 width:500px;
-background: #efefef;g
+background: #efefef;
 margin:0 auto;
 
 }
