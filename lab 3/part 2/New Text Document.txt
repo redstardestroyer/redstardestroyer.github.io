@@ -13,7 +13,7 @@ margin:0 auto;
 }
 h1{ 
 color: darkslategray;
-border-bottom: 10px dotted purple;h
+border-bottom: 10px dotted purple;
 font-size: 2rem;
 
 }
