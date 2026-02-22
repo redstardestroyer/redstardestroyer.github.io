@@ -75,4 +75,8 @@ a[href *="http"]{
 }
 
  a:focus,
- a,visited{
+ a,visited{ color:#aa6666;
+}
+a : focus,a:visited{
+   color:#aa6666;
+}
