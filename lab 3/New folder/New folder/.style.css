@@ -64,3 +64,7 @@ a{
 outline:none;
 
 }
+a[href *="http"]{
+  padding_right: 16px;
+  backgr
+  
