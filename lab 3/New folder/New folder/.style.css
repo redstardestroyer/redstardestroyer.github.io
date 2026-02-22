@@ -66,5 +66,13 @@ outline:none;
 }
 a[href *="http"]{
   padding_right: 16px;
-  backgr
-  
+  background: url("external-link-52.png")
+  background-size: 14px 14px;
+}
+  a:link,
+  a:visited{
+     color:#aa6666;
+}
+
+ a:focus,
+ a,visited{
