@@ -54,3 +54,13 @@ h2{
 
 
 }
+section h2+p{
+ text-indent: 2rem;
+}
+p,li{ line-heigth:1.6;
+      letter-spacing: 0.5px;
+
+a{
+outline:none;
+
+}
