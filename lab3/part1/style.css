@@ -1,55 +1,45 @@
-* {
-  box-sizing: border-box;
+html{
+   background-color: white;
+
+}
+body{
+
+front: 1.2em / 1.5system-ui;
+padding: 20px;
+width: 500px;
+background: #efefef;
+margin:0 auto;
+
+}
+h1{ 
+color: darkslategray;
+border-bottom: 10px dotted purple;
+font-size: 2rem;
+h2{
+color: darkslategary;
+border-bottom: 10px dotted  purple;
+font-size: 2rem;
+
+
 }
 
-body {
-  background-color: white;
-  color: #333333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
+}
+.job-title{
+color : darkslategray;
+font_weigth: bold;
+
+}
+ul{
+   background-color: white;
+   border:5px solid  purple;
+   border-radius: 20px;
+}
+a {
+color: green;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  border: 1px solid black;
-}
-
-.logo {
-  font-size: 200%;
-  padding: 50px 20px;
-  margin: 0 auto;
-  max-width: 980px;
-}
-
-.grid {
-  margin: 0 auto;
-  max-width: 980px;
-}
-
-nav {
-  background-color: black;
-  padding: 0.5em;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav a {
-  color: white;
+a:hover,
+a:focus {
+  color: darkgreen;
   text-decoration: none;
-  padding: 0.5em 1em;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.feature {
-  width: 200px;
 }
