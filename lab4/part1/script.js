@@ -48,10 +48,10 @@ function generateStory() {
       var character =  randomValueFromArray(characters);
       var place =  randomValueFromArray(places);
       var event =  randomValueFromArray(events);
-      console.log(character);
+     /* console.log(character);
       console.log(place);
       console.log(event);
-      
+      */
       
   if (customName.value !== "") {
      a = a.replace("Bob",  customName.value);
@@ -59,16 +59,21 @@ function generateStory() {
   a = a.replaceAll(":insertx:", character);
 a = a.replaceAll(":inserty:", place);
 a = a.replaceAll(":insertz:", event);
-console.log(a);
- 
+//console.log(a);
+    
   if (document.getElementById("uk").checked) {
     const weight = Math.round(300 / 14.0 ) + " stones"; //14 pounds in a stone
     const temperature = Math.round(fahrenheitToCelsius(94)) + " Celsius";
+    
+    a = a.replace("94 Fahrenheit", temperature);
+    a = a.replace("300 pounds", weight);
+
    } 
   
 
   // TODO: replace "" with the correct expression
- 
+ story.style.visibility = "visible";
+  story.textContent = a;
 }
- 
-  story.style.visibility = "visible";
+   
+  
