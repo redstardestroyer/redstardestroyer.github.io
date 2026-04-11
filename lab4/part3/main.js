@@ -1,3 +1,10 @@
+!-- =========================================
+   Bouncing Balls Project
+   Main HTML structure
+   Loads CSS and JavaScript files
+   Author: Eric
+========================================= -->
+
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 

@@ -1,5 +1,12 @@
 // Complete variable definitions and random functions
 
+// =========================================
+// Silly Story Generator
+// Generates random stories from user input
+// Handles logic, randomness, and output display
+//  Author: Eric
+// =========================================
+
 const customName = document.getElementById("custom-name");
 const generateBtn = document.querySelector(".generate");
 const story = document.querySelector(".story");
