@@ -30,7 +30,7 @@ Notes:
     
 
     <title>Accessibility assessment</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&#124;Sonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
 
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
@@ -40,22 +40,23 @@ Notes:
   </head>
 
   <body>
-    <div class="header">
+    <header>
       <h1>Welcome to our wildlife website</h1>
-    <nav  class="nav">
-
+    <nav>
+<ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Blog</a></li>
-      <nav />
+</ul>
+      </nav>
 
       <form class="search">
         <input type="search"   name="q" placeholder="Search query">
          
         <input type="submit" value="Go!">
       </form>
-    </div>
+    </header>
 
     <main>
       <article>
@@ -127,10 +128,11 @@ Notes:
         The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.
         <br/>
         <audio controls>
-          <source src="media/bear.mp3" type="audio/mp3" alt= this is not a real  factfile about bears>
-          <source src="media/bear.ogg" type="audio/ogg"  alt = this is not a real  factfile about bears>
+          <source src="media/bear.mp3" type="audio/mp3" >
+          <source src="media/bear.ogg" type="audio/ogg"  > <!-- alt="this is not a real  factfile about bears" - this is not valid HTML5 -->
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
+        <p>Transcript: this is not a real  factfile about bears.</p>
 
         <aside>
 
@@ -148,7 +150,7 @@ Notes:
 
           <div class="comment-wrapper">
 
-            <h6>Add comment<h6>
+            <h3>Add comment</h3>
 
             <form class="comment-form">
               <div class="flex-pair">
@@ -164,7 +166,7 @@ Notes:
               </div>
             </form>
 
-            <h6>Comments</h6>
+            <h3>Comments</h3>
 
             <ul class="comment-container">
 
